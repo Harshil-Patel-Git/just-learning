@@ -1,8 +1,6 @@
 import SideNav from "@/app/ui/dashboard/sidenav";
 
-export const config = {
-  dynamic: 'force-dynamic', // This is the preferred location for configuration
-};
+export const dynamic = 'force-dynamic';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
